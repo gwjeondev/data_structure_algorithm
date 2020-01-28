@@ -1,6 +1,6 @@
-const Stack = function() {
-  let stack = [];
+function Stack() {
 
+  let stack = [];
   this.item = stack;
 
   this.pop = function() {
@@ -22,4 +22,3 @@ const Stack = function() {
     console.log(this.item.toString());
   };
 };
-
